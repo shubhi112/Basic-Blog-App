@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.logo{
+    font-family: 'Courgette';
+    color: red!important;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-color{
+    background-color: rgb(17, 192, 169)
+}
+.main-heading{
+    text-align: center;
+    font-family: 'Courgette';
+    font-weight: bold;
+    margin-top: 30px;
+}   
+.btn-create {
+    width: 188px;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 2px;
+    color: white;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+  }
+  .btn-create:hover{
+    background-color: rgb(255, 103, 1);
+    color: #ffffff;
+  }
+  .labels{
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .btn-save{
+    width: 80px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;   
+  }
+  .btn-cancel{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;   
+  }
+  .heading-blog{
+    font-family: 'Courgette';
+    font-weight: bold;
+    margin-top: 30px;
+} 

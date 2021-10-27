@@ -1,0 +1,11 @@
+<%- include ('header.ejs') %>
+<div class="container">
+  <h1 class="heading-blog"><%= article.title %></h1>
+  <div class="text-muted mb-2">
+    <%= article.createdAt.toLocaleDateString() %>
+  </div>
+  <div><%= article.description %></div>
+  <a href="/" class="btn btn-create mt-4"> See All Articles</a>
+  <a href="/articles/edit/<%= article.id %>" class="btn btn-info mt-4"><i class="fa fa-edit"></i></a>
+</div>
+<%- include ('footer.ejs') %>

@@ -1,0 +1,8 @@
+<%- include ('header.ejs') %>
+<div class="container">
+  <h1 class="main-heading">Create your blog..</h1>
+  <form action="/articles" method="POST" autocomplete="off">
+    <%- include('_form_fields.ejs') %>
+  </form>
+</div>
+<%- include ('footer.ejs') %>
